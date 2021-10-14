@@ -20,7 +20,7 @@ known_extension_list = []
 unown_extension_list = []
 
 
-def hello():
+def folder_path():
     if len(sys.argv) != 2:
         print('Принимает только один аргумент!')
     else:
@@ -123,6 +123,6 @@ def sort(path):
 
 
 def main():
-    hello()
+    folder_path()
     remove_folders(base_path)
     log()
